@@ -9,7 +9,7 @@
 </head>
 <body>
     <main>
-        <form action="handler.php" method="post" class="form">
+        <div class="form">
             <div class="name">
                 <label for="name" class="label-name">Your Name:</label>
                 <input type="text" maxlength="25" name="name" placeholder="Name" class="input-name">
@@ -30,8 +30,9 @@
                 <label for="adult" class="label-adult">Are your adult?</label>
                 <input type="checkbox" name="adult" class="input-adult">
             </div>
-            <button class="btn" type="submit">Submit</button>
-        </form>
+            <button class="btn" disabled>Submit</button>
+            <div class="success-hide">Registration success!</div>
+        </div>
         <div class="terminal">
             <div class="terminal-text"></div>
         </div>
